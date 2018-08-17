@@ -1,0 +1,66 @@
+Below are details taken from our first firmware updater for the printrbot Printrboard - ,,,
+,,,
+Printer Name,Firmware Hex file location,Gcode location that uses m-codes to make appropriate adjustments,Contents of code file in previous column
+Original (1111),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1111-Original.gcode,"M92 X63.36 Y63.36 Z2272.72 E590
+M211 X115 Y120 Z80"
+Go v1 (1212),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1212-Go-V1.gcode,"M92 X63.36 Y63.36 Z2272.72 E590
+M211 X200 Y200 Z150"
+LC v1 (1302),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1302-LC-V1.gcode,"M92 X63.36 Y63.36 Z2272.72 E590
+M211 X130 Y150 Z120"
+Plus v1 (1303),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1303-Plus-V1.gcode,"M92 X63.36 Y63.36 Z2272.72 E590 
+M211 X200 Y200 Z200"
+Simple Beta (1305),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1305-Simple-Beta.gcode,"M92 X119 Y119 Z2020.00 E590
+M211 X100 Y100 Z100"
+Plus v2 (1306),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1306-Plus-V2.gcode,"M92 X63.36 Y63.36 Z2272.72 E590
+M211 X200 Y200 Z200"
+Jr v1 (1307),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1307-Jr-V1.gcode,"M92 X63.36 Y63.36 Z2272.72 E590
+M211 X115 Y120 Z80"
+LC v2 (1308),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1308-LC-V2.gcode,"M92 X63.36 Y63.36 Z2272.72 E590 
+M211 X150 Y150 Z150"
+Simple Maker (1310),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1310-Simple-Maker.gcode,"M92 X119 Y119 Z2020.00 E102
+M211 X115 Y120 Z80"
+Plus v2-1 (1311),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1311-Plus-V2-1.gcode,"M92 X80 Y80 Z2272.72 E94.5
+M211 X185 Y220 Z200"
+Simple (1312),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1312-Simple%20Maker-2013.gcode,"M92 X84.4 Y84.4 Z2020 E94.5
+M211 X100 Y100 Z100"
+Simple Maker 2014 (1401),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1401-Simple-Maker-2014.gcode,"M92 X84.4 Y84.4 Z2020 E94.5
+M211 X100 Y100 Z100"
+Jr v2 (1402),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1402-Jr-V2.gcode,"M92 X80 Y80 Z1511.57 E94.5
+M211 X150 Y150 Z150"
+Simple Metal REVISION D PRINTRBOARD (1403),https://github.com/Printrbot/Marlin/releases/download/metal-simple_bedlevel_v1/Marlin_Metal_Simple_bedlevel-pb.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1403-Simple-Metal.gcode,"M92 X80 Y80 Z2020 E94.5
+M211 X150 Y150 Z150"
+Simple Metal REVISION F PRINTRBOARD (1403),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1403-Simple-Metal.gcode,"M92 X80 Y80 Z2020 E94.5
+M211 X150 Y150 Z150"
+Plus v2-2 (1404),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1404-Plus-V2-2.gcode,"M92 X80 Y80 Z1511.57 E94.5
+M211 X250 Y250 Z250
+M212 X-24"
+Simple Maker 2014 REVISION D PRINTRBOARD (1405),https://github.com/Printrbot/Marlin/releases/download/metal-simple_bedlevel_v1/Marlin_Metal_Simple_bedlevel-pb.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1405-Simple-Maker-2014.gcode,"M92 X80 Y80 Z2020 E94.5
+M211 X100 Y100 Z100"
+Simple Maker 2014 REVISION F PRINTRBOARD (1405),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1405-Simple-Maker-2014.gcode,"M92 X80 Y80 Z2020 E94.5
+M211 X100 Y100 Z100"
+Go v2 Medium (1406),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1406-Go-V2-Medium.gcode,"M92 X80 Y80 Z1511.57 E94.5
+M211 X340 Y190 Z190
+M212 X-24"
+Go v2 Small (1407),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1407-Go-V2-Small.gcode,"M92 X80 Y80 Z1511.57 E94.5
+M211 X200 Y200 Z200
+M212 X-24"
+Go v2 Large (1408),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1408-Go-V2-Large.gcode,"M92 X80 Y80 Z1511.57 E94.5
+M211 X505 Y306 Z310
+M212 X-24"
+Metal Plus (1412),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-Metal-Plus-Single.gcode,"M203 X100 Y100 Z5 E14
+M211 X254 Y254 Z254"
+Metal Plus Dual Extruder (1412),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-Metal-Plus-Dual.gcode,"M203 X100 Y100 Z5 E14
+M211 X230 Y254 Z254"
+,,,
+below are details from our new “Printrbot Firmware Updater” PBFU - https://github.com/Printrbot/firmware-updater — specifically:   https://github.com/Printrbot/firmware-updater/tree/gh-pages/binaries,,,
+,,,
+Bocusini (paste extruder on a Simple metal),https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/bocusini-0.2.hex,,
+Crawlbot v1.0,https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/crawlbot-1.0.bin,,
+Crawlbot v1.1 (updated Z motor and hardware),https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/crawlbot-1.1.bin,,
+Magic Candy Factory,https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/mcf-0.1.hex,,
+Printrbot CNC - first version,https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/pbcnc-0.1.bin,,
+Play,https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/play-0.6.hex,,
+Simple (sometimes called Simple Metal),https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/simple-0.6.hex,,
+Plus ,https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/plus-0.5.hex,,
+,,,
+Simple Pro (tinyG powered),https://github.com/abdrumm/printrbot-docs/blob/master/G2-Board%20documentation.pdf,,
