@@ -1,4 +1,5 @@
-Below are details taken from our first firmware updater for the printrbot Printrboard - ,,,
+details taken from our first Mac firmware updater for the printrbot Printrboard - ,,,
+https://github.com/Printrbot/FirmwareUpdatr,,,
 ,,,
 Printer Name,Firmware Hex file location,Gcode location that uses m-codes to make appropriate adjustments,Contents of code file in previous column
 Original (1111),https://github.com/Printrbot/Marlin/releases/download/unified-v3/unified-v3.cpp.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-1111-Original.gcode,"M92 X63.36 Y63.36 Z2272.72 E590
@@ -52,7 +53,10 @@ M211 X254 Y254 Z254"
 Metal Plus Dual Extruder (1412),https://github.com/Printrbot/Marlin/releases/download/RevF-Version-1/RevF4-v1-SimpleMetal.hex,https://raw.githubusercontent.com/Printrbot/Printr-Configs/master/Config-Metal-Plus-Dual.gcode,"M203 X100 Y100 Z5 E14
 M211 X230 Y254 Z254"
 ,,,
-below are details from our new “Printrbot Firmware Updater” PBFU - https://github.com/Printrbot/firmware-updater — specifically:   https://github.com/Printrbot/firmware-updater/tree/gh-pages/binaries,,,
+below are details from our new “Printrbot Firmware Updater” PBFU -,,,
+https://github.com/Printrbot/firmware-updater,,,
+https://github.com/Printrbot/firmware-updater/tree/gh-pages/binaries,,,
+alt: http://github.com/mickbalaban/printrbot-firmware-updater/raw/gh-pages/pbFU_mac.zip,,,
 ,,,
 Bocusini (paste extruder on a Simple metal),https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/bocusini-0.2.hex,,
 Crawlbot v1.0,https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/crawlbot-1.0.bin,,
@@ -63,4 +67,9 @@ Play,https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/play-0
 Simple (sometimes called Simple Metal),https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/simple-0.6.hex,,
 Plus ,https://github.com/Printrbot/firmware-updater/blob/gh-pages/binaries/plus-0.5.hex,,
 ,,,
-Simple Pro (tinyG powered),https://github.com/abdrumm/printrbot-docs/blob/master/G2-Board%20documentation.pdf,,
+The simple pro uses a Tinyg board and G2core firmware,,,
+https://github.com/synthetos/g2/wiki/What-is-g2core,,,
+,,,
+Simple Pro (tinyG powered) Documentation,https://github.com/abdrumm/printrbot-docs/blob/master/G2-Board%20documentation.pdf,,
+Firmware Binary,https://github.com/abdrumm/printrbot-docs/blob/master/G2core170411.bin,,
+,,,
